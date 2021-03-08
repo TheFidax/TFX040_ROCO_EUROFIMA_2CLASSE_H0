@@ -114,9 +114,10 @@ Il microcontrollore comanda *in maniera indipendente* tutti (leggere NOTA) i LED
 
 Il chip e' programmabile **anche** utilizzando l'**Arduino IDE** (mediante *programmatore ISP*) tramite il [MegaCore](https://github.com/MCUdude/MegaCore).</br>
 I valori dei **FUSE** sono i seguenti: 
-- LOW:		0x3F
-- High:		0xC7
-- Extended:	0xFF
+- LOW: 0x3F
+- High: 0xC7
+- Extended: 0xFF
+- LOCKBITS: 0x3F
 
 ------------
 
