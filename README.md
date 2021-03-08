@@ -1,8 +1,3 @@
-## Video Presentazione del Progetto
-[![Video Presentazione](https://img.youtube.com/vi/wB8cmPJ338o/0.jpg)](http://www.youtube.com/watch?v=wB8cmPJ338o)
-
-------------
-
 ## Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/shield.jpg" width="1280">
@@ -24,6 +19,12 @@ Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Euro
   - [I2C Resistori PullUp](#I2C-Resistori-PullUp)
 * [File Gerber](#File-Gerber)
 * [HardWare](#HardWare)
+
+------------
+
+
+## Video Presentazione del Progetto
+[![Video Presentazione](https://img.youtube.com/vi/wB8cmPJ338o/0.jpg)](http://www.youtube.com/watch?v=wB8cmPJ338o)
 
 ------------
 
