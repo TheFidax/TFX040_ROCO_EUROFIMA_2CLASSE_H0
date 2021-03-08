@@ -29,9 +29,13 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 ------------
 
-## Upload FirmWare
+## FirmWare
 Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/tree/main/FirmWare), per poterlo caricare è consigliata la seguente [Shield](https://github.com/TheFidax/ProgrammerUpdaterShield).</br>
 Le cifre finali del file .HEX identificano la versione del FirmWare.
+
+------------
+
+## HardWare
 
 ------------
 
@@ -53,12 +57,13 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - Optoisolator to detect presence of PluX Decoder and activate the SUSI bus
 - MINIMUM CLEARANCE: 6mil
 
+------------
 
 
 
 
 
-#### **Porta AVR ISP**</br>
+#### **Ponte di Diodi Schottky**</br>
 
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/avr_isp.jpg" width="1280">
 La porta AVR ISP permette alla Shield di interfacciarsi con i target esterni e rispecchia lo schema standard degli AVR:</br>
