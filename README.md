@@ -10,7 +10,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 * [Manuale Scheda](#manuale-scheda)
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
-* [Modalita' Di Funzionamento](#Modalita-Di-Funzionamento)
+* [Caratteristiche della Scheda](##caratteristiche-della-scheda)
   - [Modalita' ISP](#Modalita-ISP)
   - [Modalita' I2C](#Modalita-I2C)
 * [Caratteristiche della Shield](#Caratteristiche-della-SHield) 
@@ -46,15 +46,15 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 ------------
 
-## Caratteristiche della Scheda Luci
+## Caratteristiche della Scheda
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
 - [Schottky Diodes](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#ponte-di-diodi-schottky) to provide CC power from Tracks
 - [MCP16331](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#chip-step-down-buck-mcp16331) to power Board at 5v
 - [PowerPack](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
 - [AtMega128A](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#microchip-atmega128a) to Digital Operation
-- Optoisolator to read DCC signal
-- ACK System
+- Optoisolator to read [DCC signal]
+- [ACK System]
 - JST SH 6 connector to program AtMega with ISP system and to provide I2C Bus from external target
 - All compartments illuminated independently (with Day and Night lights)
 - Bathrooms illuminated independently
@@ -106,6 +106,18 @@ Il *cervello* della scheda e' un microcontrollore [ATmega128](https://www.microc
 Il microcontrollore comanda *in maniera indipendente* tutti (leggere NOTA) i LED, in modo tale da garantire la massima flessibilita' di funzionamento.
 
 *NOTA* Il corridoio e' progettato con *5 segmenti* da 3 led ognuno: il microcontrollore comanda il segmento e *non* il singolo LED.
+
+------------
+
+### Lettura DCC
+Il segnale digitale e' letto mediante [Optoisolatore TLP2168](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2168.html) che fornisce l'[isolamento galvanico](https://it.wikipedia.org/wiki/Isolamento_elettrico) del microcontrollore dalla tensione delle rotaie.</br> 
+L'optoisolatore e' protetto dall'inversione di corrente mediante Diodo e da un eccessiva corrente mediante resistore.
+Tale chip e' bicanale e permette, inoltre, il rilevamento della presenza di un Decoder Esterno analizzando la linea U+ fornita da esso.
+
+------------
+
+### Sistema ACK
+La scheda e' dotata di sistema per fornire l'ACK nella programmazione DCC mediante binario di programmazione.
 
 ------------
 
