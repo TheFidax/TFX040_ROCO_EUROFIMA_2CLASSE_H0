@@ -10,7 +10,6 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 * [Manuale Scheda](#manuale-scheda)
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
-* [File Gerber](#File-Gerber)
 * [Caratteristiche della Scheda](#caratteristiche-della-scheda)
   - [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
   - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
@@ -46,11 +45,6 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 Il progetto di questa scheda e' disponibile qui: https://circuitmaker.com/Projects/Details/luca-fidanza/Roco-EuroFima-2nd-Class-H0 .</br>
 Viene rilasciato con la **seguente Licenza**: https://creativecommons.org/licenses/by-nc-nd/4.0/ .</br>
 I **File Gerber** e il **BOM** sono nel [file Zip](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/HardWare/Roco%20EuroFima%202nd%20Class%20H0%202_01.Zip) disponibile sotto la cartella HardWare.</br> 
-
-------------
-
-## File Gerber
-Nella cartella [Hardware]() sono presenti i file, in formato .zip, Gerber per la produzione in proprio della scheda.
 
 ------------
 
