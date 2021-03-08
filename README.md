@@ -6,8 +6,10 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 ------------
 
 ## Indice
-* [Upload FirmWare](#Upload-FirmWare)
-* [Caricare FirmWare su un Dispositivo](#Caricare-FirmWare-su-un-Dispositivo)
+* [Video Presentazione del Progetto](#video-presentazione-del-progetto)
+* [Manuale Scheda](#manuale-scheda)
+* [FirmWare](#firmware)
+* [HardWare](#hardware)
 * [Modalita' Di Funzionamento](#Modalita-Di-Funzionamento)
   - [Modalita' ISP](#Modalita-ISP)
   - [Modalita' I2C](#Modalita-I2C)
@@ -30,7 +32,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 ------------
 
 ## Manuale Scheda
-Il manuale della scheda è disponibile [qui](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/TFX040_MANUALE.odt).
+Il manuale della scheda è [disponibile qui](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/TFX040_MANUALE.odt).
 
 ------------
 
@@ -50,7 +52,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [MCP16331](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#chip-step-down-buck-mcp16331) to power Board at 5v
 - [PowerPack](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
-- AtMega128A to Digital Operation
+- [AtMega128A]() to Digital Operation
 - Optoisolator to read DCC signal
 - ACK System
 - JST SH 6 connector to program AtMega with ISP system and to provide I2C Bus from external target
@@ -80,7 +82,7 @@ L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.mi
 
 ------------
 
-#### Condensatori PowerPack
+### Condensatori PowerPack
 Per sopperire a problemi di captazione di corrente e' previsto un sistema *powerpack* formato da 4 condensatori al Tantalio da 100uF con tensione **massima** di 25 volt.</br>
 I condensatori sono separati dal circuito di alimentazione da un Diodo ed un Resistore che rappresentano *il sistema di ricarica lenta*.
 Come ulteriore protezione la scheda **può essere equipaggiata** con un sistema di [protezione dalle sovratensioni](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
@@ -93,7 +95,7 @@ Le normative [NMRA](https://www.nmra.org/sites/default/files/standards/sandrp/pd
 L'utilizzo di condensatori a 25 volt *non e' a norma*. **Tuttavia** le stesse normative impongono che la centrale fornisca tensione *massima* di 22 volt.</br>
 Pertanto in condizioni di *funzionamento corretto* i condensatori non riceveranno tensioni che possano danneggiarli.
 
-**In casi di impiego della Scheda su sistemi a Corrente Alternata Analogica questa protezione E' OBBLIGATORIA!** 
+**In caso di impiego della Scheda su sistemi a Corrente Alternata Analogica questa protezione E' OBBLIGATORIA!** 
 
 Il sistema di protezione si basa sul chip [LTC4367](https://www.analog.com/en/products/ltc4367.html) che **isola** mediante *MOSFET* i condensatori in caso di tensioni *superiori a 23,7 volt*; quando la tensione scende sotto questa soglia i condensatori torneranno alimentati.</br>
 
