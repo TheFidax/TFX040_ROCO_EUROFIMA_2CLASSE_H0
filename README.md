@@ -1,5 +1,6 @@
 ## Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
+E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: Corridoio, *Luci Diurne Comapartimenti*, **Luci Notturne Blu Compartimenti**, *Bagni* e predisposizione per le luci di coda *rosse*.</br> 
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/shield.jpg" width="1280">
 
 ------------
@@ -29,16 +30,8 @@ Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Euro
 ------------
 
 ## Upload FirmWare
-Il Firmware pensato per la shield e' disponibile sotto la cartella [HEX](https://github.com/TheFidax/ProgrammerUpdaterShield/tree/main/HEX)</br>
-Il Firmware e' gia' pronto per l'upload sulla scheda Arduino tramite [AVRDUDESS](https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/)</br>
-Per caricare il Firmware e' necessario inserire i seguenti parametri nel software:
-- **Programmer (-c)** : *Arduino*
-- **Port (-P)** : la porta COM a cui e' connessa la scheda Arduino
-- **Baud rate (-b)** : 115200
-- Premere **Detect** : Nella *console* verra' restituito il modello del Micro montato sulla Scheda
-- **Flash** : il file FirmWare.hex scaricato
-- Infine premere **Programm**
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/AVRDUDESS.jpg" width="1280">
+Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/tree/main/FirmWare), per poterlo caricare è consigliata la seguente [Shield](https://github.com/TheFidax/ProgrammerUpdaterShield).</br>
+Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 ------------
 
