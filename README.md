@@ -53,15 +53,15 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [PowerPack](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
 - [AtMega128A](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#microchip-atmega128a) to Digital Operation
-- Optoisolator to read [DCC signal](#lettura-dcc)
+- [Optoisolator to read Digital signal](#lettura-dcc)
 - [ACK System](#sistema-ack)
-- JST SH 6 connector to program AtMega with ISP system and to provide I2C Bus from external target
+- [JST SH6 connector]() to program AtMega with ISP system and to provide I2C Bus from external target
 - All compartments illuminated independently (with Day and Night lights)
 - Bathrooms illuminated independently
 - Pads for tail red lights
 - Space for 20mm round speaker (recommended 8Ω 2w)
 - PluX22 Interfaces (with Sound and SUSI BUS)
-- Optoisolator to detect presence of PluX Decoder and activate the SUSI bus
+- SUSI Port for External Module
 - MINIMUM CLEARANCE: 6mil
 
 ------------
@@ -122,11 +122,8 @@ La scheda e' dotata di sistema per fornire l'ACK nella programmazione DCC median
 ------------
 
 #### **Porta JST**
-
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/jst_isp.jpg" width="1280">
-
-E' presente una porta JST SH6 che fornisce, al posto dei 5 volt, una linea *non regolata* collegata al pin **VIN** di Arduino.</br> 
-Questa porta svolge la doppia funzione di **Porta ISP** e **Porta I2C**.</br>
+Per programmare il microcontrollore e' presente *una porta di programmazione ISP* con connettore JST SH6 per prevenire connessioni invertite.</br>
+Questa porta svolge la doppia funzione di **Porta ISP** e **Porta I2C** mediante il seguente schema:</br>
 
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/jst_scheme.jpg" width="1280"></br>
 
