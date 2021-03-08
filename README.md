@@ -24,6 +24,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Luci di Coda Rosse](#luci-di-coda-rosse)
   - [Altoparlante](#altoparlante)
   - [Decoder PluX](#interfaccia-plux)
+  - [Porta SUSI](#porta-susi)
 
 ------------
 
@@ -66,7 +67,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - Pads for [tail red lights](#luci-di-coda-rosse)
 - Space for [20mm round speaker](#altoparlante) (recommended 8Ω 2w)
 - [PluX Interface](#interfaccia-plux) (with Sound and SUSI BUS)
-- SUSI Port for External Module
+- [SUSI Port](#porta-susi) for External Module
 - MINIMUM CLEARANCE: 6mil
 
 ------------
@@ -171,3 +172,5 @@ La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br
 ------------
 
 ### Interfaccia PluX
+
+### Porta SUSI
