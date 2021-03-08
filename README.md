@@ -10,14 +10,14 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 * [Manuale Scheda](#manuale-scheda)
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
-* [Caratteristiche della Scheda](##caratteristiche-della-scheda)
+* [Caratteristiche della Scheda](#ponte-di-diodi-schottky)
   - [Ponte di Diodi Schottky](#Modalita-ISP)
-  - [Chip Step Down Buck MCP16331](#Modalita-I2C)
-  - [Condensatori PowerPack]
-  - [Protezione Sovratensioni (Opzionale)]
-  - [Microchip ATmega128A]
-  - [Lettura Segnale Digitale]
-  - [Sistema ACK]
+  - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
+  - [Condensatori PowerPack](#condensatori-powerpack)
+  - [Protezione Sovratensioni (Opzionale)](#protezione-sovratensioni-opzionale)
+  - [Microchip ATmega128A](#microchip-atmega128a)
+  - [Lettura Segnale Digitale](#lettura-segnale-digitale)
+  - [Sistema ACK](#sistema-ack)
   - [Porta di Programmazione ISP]
 * [Caratteristiche della Shield](#Caratteristiche-della-SHield) 
   - [Porta AVR ISP](#Porta-AVR-ISP)
@@ -54,12 +54,12 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 ## Caratteristiche della Scheda
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
-- [Schottky Diodes](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#ponte-di-diodi-schottky) to provide CC power from Tracks
-- [MCP16331](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#chip-step-down-buck-mcp16331) to power Board at 5v
-- [PowerPack](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
+- [Schottky Diodes](#ponte-di-diodi-schottky) to provide CC power from Tracks
+- [MCP16331](#chip-step-down-buck-mcp16331) to power Board at 5v
+- [PowerPack](#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](#protezione-sovratensioni-opzionale).
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
-- [AtMega128A](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#microchip-atmega128a) to Digital Operation
-- [Optoisolator to read Digital signal](#lettura-dcc)
+- [AtMega128A](#microchip-atmega128a) to Digital Operation
+- [Optoisolator to read Digital signal](#lettura-segnale-digitale)
 - [ACK System](#sistema-ack)
 - [JST SH6 connector](#porta-di-programmazione-isp) to program AtMega with ISP system and to provide I2C Bus from external target
 - All [compartments]() illuminated independently (with Day and Night lights)
