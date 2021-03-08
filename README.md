@@ -69,7 +69,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 ### Ponte di Diodi Schottky
 
 Il circuito di alimentazione e' realizzato meadiante 4 diodi Schottky in configurazione [Ponte di Graetz](https://it.wikipedia.org/wiki/Raddrizzatore#Ponte_di_Graetz).</br>
-Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di corrente in Conrrente Continua a prescindere del sistema di alimentazione:
+Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di corrente in Conrente Continua a prescindere del sistema di alimentazione:
 - Corrente Continua Analogica (fornisce sempre gli stessi poli in uscita)
 - Corrente PWM (raddrizza l'onda quadra fornendo una tensione simil continua)
 - Corrente Alternata Analogica (raddrizza l'onda sinusoidale fornendo una tensione simil continua)
@@ -98,6 +98,14 @@ Pertanto in condizioni di *funzionamento corretto* i condensatori non riceverann
 **In caso di impiego della Scheda su sistemi a Corrente Alternata Analogica questa protezione E' OBBLIGATORIA!** 
 
 Il sistema di protezione si basa sul chip [LTC4367](https://www.analog.com/en/products/ltc4367.html) che **isola** mediante *MOSFET* i condensatori in caso di tensioni *superiori a 23,7 volt*; quando la tensione scende sotto questa soglia i condensatori torneranno alimentati.</br>
+
+------------
+
+### Microchip ATmega128A
+Il *cervello* della scheda e' un microcontrollore [ATmega128](https://www.microchip.com/wwwproducts/en/ATmega128A) a 64 pin operante a 5 volt con frequenza di 16MHz.</br>
+Il microcontrollore comanda *in maniera indipendente* tutti* i LED, in modo tale da garantire la massima flessibilita' di funzionamento.
+
+* Il corridoio e' progettato con *5 segmenti* da 3 led ognuno: il microcontrollore comanda il segmento e *non* il singolo LED.
 
 ------------
 
