@@ -29,6 +29,11 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 ------------
 
+## Manuale Scheda
+Il manuale della scheda è disponibile [qui]().
+
+------------
+
 ## FirmWare
 Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/tree/main/FirmWare), per poterlo caricare è consigliata la seguente [Shield](https://github.com/TheFidax/ProgrammerUpdaterShield).</br>
 Le cifre finali del file .HEX identificano la versione del FirmWare.
