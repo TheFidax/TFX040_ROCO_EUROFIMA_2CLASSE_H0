@@ -53,8 +53,8 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [PowerPack](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
 - [AtMega128A](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#microchip-atmega128a) to Digital Operation
-- Optoisolator to read [DCC signal]
-- [ACK System]
+- Optoisolator to read [DCC signal](#lettura-dcc)
+- [ACK System](#sistema-ack)
 - JST SH 6 connector to program AtMega with ISP system and to provide I2C Bus from external target
 - All compartments illuminated independently (with Day and Night lights)
 - Bathrooms illuminated independently
