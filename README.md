@@ -43,6 +43,9 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 ------------
 
 ## HardWare
+Il progetto di questa scheda e' disponibile qui: https://circuitmaker.com/Projects/Details/luca-fidanza/Roco-EuroFima-2nd-Class-H0 .</br>
+Viene rilasciato con la **seguente Licenza**: https://creativecommons.org/licenses/by-nc-nd/4.0/ .</br>
+I **File Gerber** e il **BOM** sono nel [file Zip](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/tree/main/HardWare/Roco EuroFima 2nd Class H0 2_01) disponibile sotto la cartella HardWare.</br> 
 
 ------------
 
