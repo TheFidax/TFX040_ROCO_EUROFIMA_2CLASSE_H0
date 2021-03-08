@@ -19,8 +19,10 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Lettura Segnale Digitale](#lettura-segnale-digitale)
   - [Sistema ACK](#sistema-ack)
   - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
-  - [Compartimenti con Luci Diurne e Notturne *indipendenti*]()
-  - [Bagni *indipendenti*]()
+  - [Compartimenti con Luci Diurne e Notturne *indipendenti*](#illuminazione-compartimenti-con-luci-diurne-e-notturne)
+  - [Bagni *indipendenti*](#illuminazione-ritirate)
+  - [Luci di Coda Rosse](#luci-di-coda-rosse)
+  - [Altoparlante](#altoparlante)
 
 ------------
 
@@ -58,10 +60,10 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [Optoisolator to read Digital signal](#lettura-segnale-digitale)
 - [ACK System](#sistema-ack)
 - [JST SH6 connector](#porta-di-programmazione-isp) to program AtMega with ISP system and to provide I2C Bus from external target
-- All [compartments]() illuminated independently (with Day and Night lights)
-- [Bathrooms]() illuminated independently
-- Pads for tail red lights
-- Space for 20mm round speaker (recommended 8Ω 2w)
+- All [compartments](#illuminazione-compartimenti-con-luci-diurne-e-notturne) illuminated independently (with Day and Night lights)
+- [Bathrooms](#illuminazione-ritirate) illuminated independently
+- Pads for [tail red lights](#luci-di-coda-rosse)
+- Space for [20mm round speaker](#altoparlante) (recommended 8Ω 2w)
 - PluX22 Interfaces (with Sound and SUSI BUS)
 - SUSI Port for External Module
 - MINIMUM CLEARANCE: 6mil
@@ -157,3 +159,10 @@ Questa configurazione permette la massima configurabilita' luminosa della vettur
 
 ### Luci di Coda Rosse
 Su entrambi i lati sono presenti le connessioni per delle **Luci di Coda Rosse**.</br>
+Le connessioni prevedere un *polo positivo* collegato alla linea a **5 volt** e un *polo negativo* pilotato dal micro tramite transistor.
+
+------------
+
+### Altoparlante
+La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br>
+*Consigliato 8 Ohm e 2 Watt*.
