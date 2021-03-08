@@ -71,6 +71,7 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 ------------
 
 #### Chip Step Down Buck MCP16331
+L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.microchip.com/wwwproducts/en/MCP16331), un regolatore di tensione di tipo [Step Down Buck](https://it.wikipedia.org/wiki/Convertitore_buck) in gradi di ricevere in ingresso tensioni fino a 50 volt e di fornire in uscita una tensione stabile a 5 volt con sviluppo di calore minimo.</br>
 
 #### **Porta JST**
 
