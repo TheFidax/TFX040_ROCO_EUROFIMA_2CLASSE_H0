@@ -1,12 +1,10 @@
-## Video Presentazione della Scheda
+## Video Presentazione del Progetto
 [![Video Presentazione](https://img.youtube.com/vi/wB8cmPJ338o/0.jpg)](http://www.youtube.com/watch?v=wB8cmPJ338o)
 
 ------------
 
-## Programmer & Updater Shield
-Questa shield e' pensata per rendere comoda l'aggiornamento dei FirmWare sulle schede di illuminazione.</br>
-Mette a disposizione un connettore JST SH6 pre configurato per le schede di illuminazione, un porta ISP 'grande' per dei target generici e vari LED di informazione.</br>
-Incorpora resistori di PullUp per il Bus I2C Wire disattivabili tramite interruttore.
+## Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
+Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/shield.jpg" width="1280">
 
 ------------
