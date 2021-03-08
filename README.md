@@ -30,7 +30,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 ------------
 
 ## Manuale Scheda
-Il manuale della scheda è disponibile [qui]().
+Il manuale della scheda è disponibile [qui](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/TFX040_MANUALE.odt).
 
 ------------
 
