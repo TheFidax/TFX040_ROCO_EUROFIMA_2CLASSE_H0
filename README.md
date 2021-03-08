@@ -42,8 +42,8 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 ## Caratteristiche della Scheda Luci
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
 - [Schottky Diodes](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#ponte-di-diodi-schottky) to provide CC power from Tracks
-- MCP16331 to power Board at 5v
-- PowerPack system by 4x 100uF Tantalum capacitors with slow charge system and Overvoltage Isoltion system.
+- [MCP16331](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#chip-step-down-buck-mcp16331) to power Board at 5v
+- [PowerPack]() system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system]().
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
 - AtMega128A to Digital Operation
 - Optoisolator to read DCC signal
@@ -72,6 +72,19 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 
 #### Chip Step Down Buck MCP16331
 L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.microchip.com/wwwproducts/en/MCP16331), un regolatore di tensione di tipo [Step Down Buck](https://it.wikipedia.org/wiki/Convertitore_buck) in gradi di ricevere in ingresso tensioni fino a 50 volt e di fornire in uscita una tensione stabile a 5 volt con sviluppo di calore minimo.</br>
+
+------------
+
+#### Condensatori PowerPack
+Per sopperire a problemi di captazione di corrente e' previsto un sistema *powerpack* formato da 4 condensatori al Tantalio da 100uF con tensione **massima** di 25 volt.</br>
+I condensatori sono separati dal circuito di alimentazione da un Diodo ed un Resistore che rappresentano *il sistema di ricarica lenta*.
+Come ulteriore protezione la scheda **può** essere equipaggiata con un sistema di protezione dalle [sovratensioni]().
+
+------------
+
+## Protezione Sovratensioni (Opzionale)
+
+------------
 
 #### **Porta JST**
 
