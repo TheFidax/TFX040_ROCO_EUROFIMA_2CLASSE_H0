@@ -173,4 +173,6 @@ La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br
 
 ### Interfaccia PluX
 
+------------
+
 ### Porta SUSI
