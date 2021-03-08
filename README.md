@@ -65,11 +65,12 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 
 #### **Ponte di Diodi Schottky**</br>
 
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/avr_isp.jpg" width="1280">
-La porta AVR ISP permette alla Shield di interfacciarsi con i target esterni e rispecchia lo schema standard degli AVR:</br>
-<img src="https://www.waveshare.com/img/devkit/general/10-pin_ISP_Connector_standard.jpg" width="400"></br>
-
-**N.B.** Il pin *VCC* e' collegato alla linea **5 volt**.
+Il circuito di alimentazione e' realizzato meadiante 4 diodi Schottky in configurazione [Ponte di Graetz](https://it.wikipedia.org/wiki/Raddrizzatore#Ponte_di_Graetz).</br>
+Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di corrente in Conrrente Continua a prescindere del sistema di alimentazione:
+- Corrente Continua Analogica (fornisce sempre gli stessi poli in uscita)
+- Corrente PWM (raddrizza l'onda quadra fornendo una tensione simil continua)
+- Corrente Alternata Analogica (raddrizza l'onda sinusoidale fornendo una tensione simil continua)
+- Digitale (raddrizza l'onda quadra fornendo una tensione simil continua)
 
 ------------
 
