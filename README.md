@@ -41,7 +41,7 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 ## Caratteristiche della Scheda Luci
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
-- Schottky Diodes to provide CC power from Tracks
+- [Schottky Diodes](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#ponte-di-diodi-schottky) to provide CC power from Tracks
 - MCP16331 to power Board at 5v
 - PowerPack system by 4x 100uF Tantalum capacitors with slow charge system and Overvoltage Isoltion system.
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
@@ -59,11 +59,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 
 ------------
 
-
-
-
-
-#### **Ponte di Diodi Schottky**</br>
+#### Ponte di Diodi Schottky
 
 Il circuito di alimentazione e' realizzato meadiante 4 diodi Schottky in configurazione [Ponte di Graetz](https://it.wikipedia.org/wiki/Raddrizzatore#Ponte_di_Graetz).</br>
 Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di corrente in Conrrente Continua a prescindere del sistema di alimentazione:
@@ -73,6 +69,8 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 - Digitale (raddrizza l'onda quadra fornendo una tensione simil continua)
 
 ------------
+
+#### Chip Step Down Buck MCP16331
 
 #### **Porta JST**
 
