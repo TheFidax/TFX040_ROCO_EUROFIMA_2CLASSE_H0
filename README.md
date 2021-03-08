@@ -142,3 +142,18 @@ Tale porta fornisce il Bus I2C mediante il seguente schema:</br>
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/jst_i2c.jpg" width="600">
 
 ------------
+
+### Illuminazione Compartimenti con Luci Diurne e Notturne
+Questa scheda fornisce, per ogni compartimento, la **doppia illuminazione**: *Diurna* con LED Bianco Freddo e *Notturna* con LED Blu.</br>
+Ogni LED e' indipendente e puo' essere pilotato dal microcontrollore in maniera indipendente dall'altro.</br>
+
+------------
+
+### Illuminazione Ritirate
+Ogni ritirata ha un LED Bianco Freddo, indipendente da tutti gli altri LED della scheda.</br>
+Questa configurazione permette la massima configurabilita' luminosa della vettura.
+
+------------
+
+### Luci di Coda Rosse
+Su entrambi i lati sono presenti le connessioni per delle **Luci di Coda Rosse**.</br>
