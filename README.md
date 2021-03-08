@@ -1,5 +1,5 @@
-## Video Presentazione della Shield
-[![Video Presentazione](https://img.youtube.com/vi/W56MJeqaCEg/0.jpg)](http://www.youtube.com/watch?v=W56MJeqaCEg)
+## Video Presentazione della Scheda
+[![Video Presentazione](https://img.youtube.com/vi/wB8cmPJ338o/0.jpg)](http://www.youtube.com/watch?v=wB8cmPJ338o)
 
 ------------
 
