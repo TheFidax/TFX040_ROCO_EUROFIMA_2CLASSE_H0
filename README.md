@@ -55,7 +55,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [AtMega128A](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#microchip-atmega128a) to Digital Operation
 - [Optoisolator to read Digital signal](#lettura-dcc)
 - [ACK System](#sistema-ack)
-- [JST SH6 connector]() to program AtMega with ISP system and to provide I2C Bus from external target
+- [JST SH6 connector](#porta-di-programmazione-isp) to program AtMega with ISP system and to provide I2C Bus from external target
 - All compartments illuminated independently (with Day and Night lights)
 - Bathrooms illuminated independently
 - Pads for tail red lights
