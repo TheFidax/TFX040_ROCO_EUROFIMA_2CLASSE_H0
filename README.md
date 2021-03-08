@@ -1,4 +1,4 @@
-## Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
+# Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
 E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: Corridoio, *Luci Diurne Comapartimenti*, **Luci Notturne Blu Compartimenti**, *Bagni* e predisposizione per le luci di coda *rosse*.</br> 
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/shield.jpg" width="1280">
@@ -59,7 +59,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 
 ------------
 
-#### Ponte di Diodi Schottky
+### Ponte di Diodi Schottky
 
 Il circuito di alimentazione e' realizzato meadiante 4 diodi Schottky in configurazione [Ponte di Graetz](https://it.wikipedia.org/wiki/Raddrizzatore#Ponte_di_Graetz).</br>
 Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di corrente in Conrrente Continua a prescindere del sistema di alimentazione:
@@ -70,7 +70,7 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 
 ------------
 
-#### Chip Step Down Buck MCP16331
+### Chip Step Down Buck MCP16331
 L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.microchip.com/wwwproducts/en/MCP16331), un regolatore di tensione di tipo [Step Down Buck](https://it.wikipedia.org/wiki/Convertitore_buck) in gradi di ricevere in ingresso tensioni fino a 50 volt e di fornire in uscita una tensione stabile a 5 volt con sviluppo di calore minimo.</br>
 
 ------------
@@ -82,7 +82,7 @@ Come ulteriore protezione la scheda **può essere equipaggiata** con un sistema 
 
 ------------
 
-#### Protezione Sovratensioni (Opzionale)
+### Protezione Sovratensioni (Opzionale)
 Questa protezione **e' opzionale**: la sua mancanza **e' segnalata dal Jumper J1 *chiuso***.
 
 
