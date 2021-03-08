@@ -11,8 +11,14 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
 * [Caratteristiche della Scheda](##caratteristiche-della-scheda)
-  - [Modalita' ISP](#Modalita-ISP)
-  - [Modalita' I2C](#Modalita-I2C)
+  - [Ponte di Diodi Schottky](#Modalita-ISP)
+  - [Chip Step Down Buck MCP16331](#Modalita-I2C)
+  - [Condensatori PowerPack]
+  - [Protezione Sovratensioni (Opzionale)]
+  - [Microchip ATmega128A]
+  - [Lettura Segnale Digitale]
+  - [Sistema ACK]
+  - [Porta di Programmazione ISP]
 * [Caratteristiche della Shield](#Caratteristiche-della-SHield) 
   - [Porta AVR ISP](#Porta-AVR-ISP)
   - [Porta JST](#Porta-JST)
@@ -56,8 +62,8 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [Optoisolator to read Digital signal](#lettura-dcc)
 - [ACK System](#sistema-ack)
 - [JST SH6 connector](#porta-di-programmazione-isp) to program AtMega with ISP system and to provide I2C Bus from external target
-- All compartments illuminated independently (with Day and Night lights)
-- Bathrooms illuminated independently
+- All [compartments]() illuminated independently (with Day and Night lights)
+- [Bathrooms]() illuminated independently
 - Pads for tail red lights
 - Space for 20mm round speaker (recommended 8Ω 2w)
 - PluX22 Interfaces (with Sound and SUSI BUS)
@@ -109,10 +115,11 @@ Il microcontrollore comanda *in maniera indipendente* tutti (leggere NOTA) i LED
 
 ------------
 
-### Lettura DCC
+### Lettura Segnale Digitale
 Il segnale digitale e' letto mediante [Optoisolatore TLP2168](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2168.html) che fornisce l'[isolamento galvanico](https://it.wikipedia.org/wiki/Isolamento_elettrico) del microcontrollore dalla tensione delle rotaie.</br> 
-L'optoisolatore e' protetto dall'inversione di corrente mediante Diodo e da un eccessiva corrente mediante resistore.
-Tale chip e' bicanale e permette, inoltre, il rilevamento della presenza di un Decoder Esterno analizzando la linea U+ fornita da esso.
+L'optoisolatore e' protetto dall'inversione di corrente mediante Diodo e da un eccessiva corrente mediante resistore.</br>
+Tale chip e' bicanale e permette, inoltre, il rilevamento della presenza di un Decoder Esterno analizzando la linea U+ fornita da esso.</br>
+Questo sistema **e' compatibile con il DCC e con il Motorola**.
 
 ------------
 
