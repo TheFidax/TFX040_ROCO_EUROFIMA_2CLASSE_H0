@@ -10,6 +10,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 * [Manuale Scheda](#manuale-scheda)
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
+* [File Gerber](#File-Gerber)
 * [Caratteristiche della Scheda](#caratteristiche-della-scheda)
   - [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
   - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
@@ -18,16 +19,9 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Microchip ATmega128A](#microchip-atmega128a)
   - [Lettura Segnale Digitale](#lettura-segnale-digitale)
   - [Sistema ACK](#sistema-ack)
-  - [Porta di Programmazione ISP]
-* [Caratteristiche della Shield](#Caratteristiche-della-SHield) 
-  - [Porta AVR ISP](#Porta-AVR-ISP)
-  - [Porta JST](#Porta-JST)
-  - [Selettore Reset](#Selettore-Reset)
-  - [ISP LED](#ISP-LED)
-  - [LED Modalita'](#LED-Modalita)
-  - [I2C Resistori PullUp](#I2C-Resistori-PullUp)
-* [File Gerber](#File-Gerber)
-* [HardWare](#HardWare)
+  - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
+  - [Compartimenti con Luci Diurne e Notturne *indipendenti*]()
+  - [Bagni *indipendenti*]()
 
 ------------
 
@@ -49,6 +43,11 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 ------------
 
 ## HardWare
+
+------------
+
+## File Gerber
+Nella cartella [Hardware]() sono presenti i file, in formato .zip, Gerber per la produzione in proprio della scheda.
 
 ------------
 
@@ -138,46 +137,3 @@ Tale porta fornisce il Bus I2C mediante il seguente schema:</br>
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/jst_i2c.jpg" width="600">
 
 ------------
-
-#### **Selettore Reset**</br>
-
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/reset_target.jpg" width="1280"></br>
-
-Tramite questo ponticello e' possibile reindirizzare la linea di Reset delle **Porte ISP** al micro della Scheda Arduino; **e' utile** per poter utilizzare un *programmatore ISP* dotato di porta AVR a 10 pin per scrivere il BootLoader sulla scheda Arduino.</br>
-
-------------
-
-#### **ISP LED**</br>
-
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/isp_led.jpg" width="1280"></br>
-
-LED di stato della programmazione ISP, per maggiori informazioni leggere la seguente [pagina](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP#load-the-sketch)</br>
-
-------------
-
-#### **LED Modalita'**</br>
-
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/mode_led.jpg" width="1280"></br>
-
-Questi led forniscono un riscontro visivo sulla Modalita' (I2C o ISP) attualmente in esecuzione nel Firmware.
-
-------------
-
-#### **I2C Resistori PullUp**
-
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/i2c_pullup.jpg" width="1280"></br>
-
-La shield monta due resistori di *pullup* da **2kΩ** per il bus I2C Wire a 400kHz. </br>
-Tali resistori sono abilitabili tramite un interruttore, il riscontro visivo sull'effettiva abilitazione e' fornito da un Led che risultera' acceso quando i resistori sono attivi.</br>
-Quando i resistori sono attivi, il firmware entrera' in modalita' I2C; in caso di *spostamento interruttore* con scheda Arduino alimentata **e' necessario** eseguire un reset della scheda per rendere edffettivo il passaggio da una modalita' all'altra.</br>
-**ATTENZIONE**: *Nella versione HardWare 1.00* le scritte 'ON' e 'OFF' dell'interruttore sono **invertite**! Il reale stato dei resistori e' fornito dal LED.
-
-------------
-
-## File Gerber
-Nella cartella [Hardware](https://github.com/TheFidax/ProgrammerUpdaterShield/tree/main/HardWare) sono presenti i file, in formato .zip, Gerber per la produzione in proprio della Shield.
-
-------------
-
-## HardWare
-Maggori informazioni sull'HardWare della Shield sono reperibili dentro la cartella [HardWare](https://github.com/TheFidax/ProgrammerUpdaterShield/tree/main/HardWare) e nel file [HARDWARE README](https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/HardWare/Hardware.md).
