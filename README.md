@@ -35,31 +35,29 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 ------------
 
-## Caricare FirmWare su un Dispositivo
-Per caricare un FirmWare/Skecth in formato .HEX, dopo aver collegato la Shield al dispositivo mediante AVR ISP oppure JST ISP, su un dispositivo sono necessari i seguenti passaggi (sono **molto** simili a quelli per caricare il Firmware della Shield, ma **non identici**):</br>
-- **Programmer (-c)** : *Arduino*
-- **Port (-P)** : la porta COM a cui e' connessa la scheda Arduino
-- **Baud rate (-b)** : **19200**
-- Premere **Detect** : Nella *console* verra' restituito il modello del Micro che *si intende programmare*
-- **Flash** : il file .hex che *si vuole caricare*
-- Infine premere **Programm**
+## Caratteristiche della Scheda Luci
+Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
+- Schottky Diodes to provide CC power from Tracks
+- MCP16331 to power Board at 5v
+- PowerPack system by 4x 100uF Tantalum capacitors with slow charge system and Overvoltage Isoltion system.
+- Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
+- AtMega128A to Digital Operation
+- Optoisolator to read DCC signal
+- ACK System
+- JST SH 6 connector to program AtMega with ISP system and to provide I2C Bus from external target
+- All compartments illuminated independently (with Day and Night lights)
+- Bathrooms illuminated independently
+- Pads for tail red lights
+- Space for 20mm round speaker (recommended 8Ω 2w)
+- PluX22 Interfaces (with Sound and SUSI BUS)
+- Optoisolator to detect presence of PluX Decoder and activate the SUSI bus
+- MINIMUM CLEARANCE: 6mil
 
-------------
 
-## Modalita' Di Funzionamento
-La shield presenta *due modalita'* di funzionamento: **ISP** e **I2C**.</br>
-Le due modalita' sono *selezionabili* tramite l'interruttore dei resistori di PullUp: se i resistori sono attivi (LED acceso) e' attiva la modalita' **I2C**, se i led e' spento e' attiva la modalita' *ISP*.</br>
-*Per passare da una modalita' all'altra*, dopo aver mosso l'interruttore, **e' necessario** eseguire un *Reset* della scheda Arduino mediante apposito pulsante.
 
-#### *Modalita' ISP*:</br>
-La modalita' ISP e' basta sul software [ArduinoAsISP](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP) e permette di utilizzare la scheda Arduino come programmatore ISP per target esterni, utile per scrivere bootloader o per caricare Sketch senza l'ausilio del Bootloader.</br>
 
-#### *Modalita' I2C*:</br>
-In sviluppo.
 
-------------
 
-## Caratteristiche della Shield
 #### **Porta AVR ISP**</br>
 
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/avr_isp.jpg" width="1280">
