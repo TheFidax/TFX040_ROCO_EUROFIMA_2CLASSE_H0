@@ -1,6 +1,6 @@
 # Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
-E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: Corridoio, *Luci Diurne Comapartimenti*, **Luci Notturne Blu Compartimenti**, *Bagni* e predisposizione per le luci di coda *rosse*.</br> 
+E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: Corridoio, *Luci Diurne Comapartimenti*, **Luci Notturne Blu Compartimenti**, *Bagni* e predisposizione per le *Luci di Coda Rosse*.</br> 
 <img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/shield.jpg" width="1280">
 
 ------------
@@ -23,6 +23,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Bagni *indipendenti*](#illuminazione-ritirate)
   - [Luci di Coda Rosse](#luci-di-coda-rosse)
   - [Altoparlante](#altoparlante)
+  - [Decoder PluX](#interfaccia-plux)
 
 ------------
 
@@ -64,7 +65,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [Bathrooms](#illuminazione-ritirate) illuminated independently
 - Pads for [tail red lights](#luci-di-coda-rosse)
 - Space for [20mm round speaker](#altoparlante) (recommended 8Ω 2w)
-- PluX22 Interfaces (with Sound and SUSI BUS)
+- [PluX Interface](#interfaccia-plux) (with Sound and SUSI BUS)
 - SUSI Port for External Module
 - MINIMUM CLEARANCE: 6mil
 
@@ -166,3 +167,7 @@ Le connessioni prevedere un *polo positivo* collegato alla linea a **5 volt** e 
 ### Altoparlante
 La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br>
 *Consigliato 8 Ohm e 2 Watt*.
+
+------------
+
+### Interfaccia PluX
