@@ -52,7 +52,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [MCP16331](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#chip-step-down-buck-mcp16331) to power Board at 5v
 - [PowerPack](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#protezione-sovratensioni-opzionale).
 - Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
-- [AtMega128A]() to Digital Operation
+- [AtMega128A](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0#microchip-atmega128a) to Digital Operation
 - Optoisolator to read DCC signal
 - ACK System
 - JST SH 6 connector to program AtMega with ISP system and to provide I2C Bus from external target
@@ -103,9 +103,9 @@ Il sistema di protezione si basa sul chip [LTC4367](https://www.analog.com/en/pr
 
 ### Microchip ATmega128A
 Il *cervello* della scheda e' un microcontrollore [ATmega128](https://www.microchip.com/wwwproducts/en/ATmega128A) a 64 pin operante a 5 volt con frequenza di 16MHz.</br>
-Il microcontrollore comanda *in maniera indipendente* tutti* i LED, in modo tale da garantire la massima flessibilita' di funzionamento.
+Il microcontrollore comanda *in maniera indipendente* tutti (leggere NOTA) i LED, in modo tale da garantire la massima flessibilita' di funzionamento.
 
-* Il corridoio e' progettato con *5 segmenti* da 3 led ognuno: il microcontrollore comanda il segmento e *non* il singolo LED.
+*NOTA* Il corridoio e' progettato con *5 segmenti* da 3 led ognuno: il microcontrollore comanda il segmento e *non* il singolo LED.
 
 ------------
 
