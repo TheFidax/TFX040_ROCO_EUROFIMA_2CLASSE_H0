@@ -156,6 +156,7 @@ Ogni LED e' indipendente e puo' essere pilotato dal microcontrollore in maniera 
 ------------
 
 ### Illuminazione Ritirate
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luci_ritirate.jpg" width="1280">
 Ogni ritirata ha un LED Bianco Freddo, indipendente da tutti gli altri LED della scheda.</br>
 Questa configurazione permette la massima configurabilita' luminosa della vettura.
 
