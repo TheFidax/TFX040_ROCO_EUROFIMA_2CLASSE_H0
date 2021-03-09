@@ -10,6 +10,10 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 **Ultima Revisione HardWar: 2.01**</br>
 
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/diurna_bianchi.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/diurna_blu.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_bianchi.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_blu1.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_blu2.jpg" width="1280">
 
 ------------
 
