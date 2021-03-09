@@ -182,3 +182,5 @@ La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br
 ------------
 
 ### Porta SUSI
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/susi_porta.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/susi_resistori.jpg" width="1280">
