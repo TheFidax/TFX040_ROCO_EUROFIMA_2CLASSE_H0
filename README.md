@@ -151,7 +151,7 @@ Tale porta fornisce il Bus I2C mediante il seguente schema:</br>
 ------------
 
 ### Illuminazione Compartimenti con Luci Diurne e Notturne
-<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luci_compartimenti.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luce_compartimenti.jpg" width="1280">
 Questa scheda fornisce, per ogni compartimento, la **doppia illuminazione**: *Diurna* con LED Bianco Freddo e *Notturna* con LED Blu.</br>
 Ogni LED e' indipendente e puo' essere pilotato dal microcontrollore in maniera indipendente dall'altro.</br>
 
