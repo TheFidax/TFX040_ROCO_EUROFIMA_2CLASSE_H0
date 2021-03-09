@@ -52,7 +52,7 @@ Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com
 Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 *NOTA*: Nella cartella e' presente anche un file chiamto *TFX040_TEST_AUX.hex* ; questo firmware attiva, a scheda alimentata, tutte le AUX.</br>
-Serve, **in fase di assemblaggio**, a verificare che tutte le saldature siano state effettuate correttamente. **NON E' IL FIRMWARE PER IL FUNZIONAMENTO NORMALE.**
+**Serve Esclusivamente in fase di assemblaggio** per verificare che tutte le saldature siano state effettuate correttamente. **NON E' IL FIRMWARE PER IL FUNZIONAMENTO NORMALE.**
 
 ------------
 
