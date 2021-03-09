@@ -4,8 +4,8 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 - Corridoio 
 - *Luci Diurne Compartimenti*
 - **Luci Notturne Blu Compartimenti**
-- *Bagni* 
-- predisposizione per le *Luci di Coda Rosse* 
+- *Ritirate* 
+- Predisposizione per le *Luci di Coda Rosse* 
 
 **Ultima Revisione HardWar: 2.01**</br>
 
