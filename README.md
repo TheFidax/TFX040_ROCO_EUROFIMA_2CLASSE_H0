@@ -184,6 +184,8 @@ Le connessioni prevedere un *polo positivo* collegato alla linea a **5 volt** e 
 ------------
 
 ### Altoparlante
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/altoparlante.jpg" width="1280">
+
 La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br>
 *Consigliato 8 Ohm e 2 Watt*.
 
