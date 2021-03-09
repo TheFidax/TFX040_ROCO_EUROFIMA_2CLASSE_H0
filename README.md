@@ -49,6 +49,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Altoparlante](#altoparlante)
   - [Decoder PluX](#interfaccia-plux)
   - [Porta SUSI](#porta-susi)
+* [Contattami](#Contattami)
 
 ------------
 
@@ -241,3 +242,8 @@ Il connettore PluX fornisce il collegamento alle rotaie (per portare i comandi a
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/susi_resistori.jpg" width="1280">
 
 Per garantire la massima personalizzazione, e' presente anche **una porta SUSI** per eventuali moduli SUSI esterni.
+
+------------
+
+## Contattami
+Per curiosita' o ulteriori informazioni puo contattarmi al seguente indirizzo email:  	TheFidaxContactsAtgmail.com
