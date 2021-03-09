@@ -153,7 +153,7 @@ La scheda e' dotata di sistema per fornire l'ACK nella **programmazione DCC medi
 Per programmare il microcontrollore e' presente *una porta di programmazione ISP* con connettore JST SH6 per prevenire connessioni invertite.</br>
 Questa porta svolge la doppia funzione di **Porta ISP** e **Porta I2C** mediante il seguente schema:</br>
 
-<img src="https://github.com/TheFidax/ProgrammerUpdaterShield/blob/main/images/jst_scheme.jpg" width="1280"></br>
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/isp_i2c.jpg" width="1280">
 
 ------------
 
