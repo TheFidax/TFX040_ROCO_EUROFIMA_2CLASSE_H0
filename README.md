@@ -131,6 +131,8 @@ Come ulteriore protezione la scheda **può essere equipaggiata** con un sistema 
 ------------
 
 ### Protezione Sovratensioni (Opzionale)
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/ltc4367.jpg" width="1280">
+
 Questa protezione **e' opzionale**: la sua presenza **e' segnalata dal Jumper J1 *aperto***.</br>
 Le normative [NMRA](https://www.nmra.org/sites/default/files/standards/sandrp/pdf/s-9.1_electrical_standards_2020.pdf) e [NEM](https://morop.org/downloads/nem/fr/nem670_f.pdf) **impongono** che un decoder digitali *supportino* tensioni fino a 27 volt.</br>
 L'utilizzo di condensatori a 25 volt quindi *non e' a norma*. **Tuttavia** le stesse normative impongono che la centrale fornisca tensione *massima* di 22 volt.</br>
