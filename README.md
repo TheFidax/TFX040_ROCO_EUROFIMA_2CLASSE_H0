@@ -143,7 +143,7 @@ Questo sistema **e' compatibile con il DCC e con il Motorola**.
 
 ### Sistema ACK
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/ack.jpg" width="1280">
-La scheda e' dotata di sistema per fornire l'ACK nella programmazione DCC mediante binario di programmazione.
+La scheda e' dotata di sistema per fornire l'ACK nella **programmazione DCC mediante binario di programmazione**.
 
 ------------
 
