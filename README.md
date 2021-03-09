@@ -1,6 +1,6 @@
 # Scheda di Illuminazione Digitale per vetture Roco Eurofima di Seconda Classe in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
-E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: Corridoio, *Luci Diurne Comapartimenti*, **Luci Notturne Blu Compartimenti**, *Bagni* e predisposizione per le *Luci di Coda Rosse*.</br> 
+E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: Corridoio, *Luci Diurne Compartimenti*, **Luci Notturne Blu Compartimenti**, *Bagni* e predisposizione per le *Luci di Coda Rosse*.</br> 
 
 **Ultima Revisione HardWar: 2.01**</br>
 
@@ -48,8 +48,8 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 ## HardWare
 Il progetto di questa scheda e' disponibile qui: https://circuitmaker.com/Projects/Details/luca-fidanza/Roco-EuroFima-2nd-Class-H0 .</br>
-Viene rilasciato con la **seguente Licenza**: https://creativecommons.org/licenses/by-nc-nd/4.0/ .</br>
-I **File Gerber** e il **BOM** sono nel [file Zip](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/HardWare/Roco%20EuroFima%202nd%20Class%20H0%202_01.Zip) disponibile sotto la cartella HardWare.</br> 
+**Viene rilasciato con la seguente Licenza**: https://creativecommons.org/licenses/by-nc-nd/4.0/ .</br>
+I **File Gerber**, il **BOM** e il file **Pick and Place** sono nel [file Zip](https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/HardWare/Roco%20EuroFima%202nd%20Class%20H0%202_01.Zip) disponibile sotto la cartella HardWare.</br> 
 
 ------------
 
@@ -119,7 +119,7 @@ Il sistema di protezione si basa sul chip [LTC4367](https://www.analog.com/en/pr
 Il *cervello* della scheda e' un microcontrollore [ATmega128A](https://www.microchip.com/wwwproducts/en/ATmega128A) a 64 pin operante a 5 volt con frequenza di 16MHz tramite cristallo esterno.</br>
 Il microcontrollore comanda *in maniera indipendente* tutti (leggere NOTA) i LED, in modo tale da garantire la massima flessibilita' di funzionamento.
 
-*NOTA* Il corridoio e' progettato con *5 segmenti* da 3 led ognuno: il microcontrollore comanda il segmento e *non* il singolo LED.
+*NOTA*: Il corridoio e' progettato con *5 segmenti* da 3 led ognuno: il microcontrollore comanda il segmento e **non** il singolo LED.
 
 Il chip e' programmabile **anche** utilizzando l'**Arduino IDE** (mediante *programmatore ISP*) tramite il [MegaCore](https://github.com/MCUdude/MegaCore).</br>
 
