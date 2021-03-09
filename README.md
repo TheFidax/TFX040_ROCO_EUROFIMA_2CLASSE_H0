@@ -37,6 +37,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 ## Video Presentazione del Progetto
 [![Video Presentazione](https://img.youtube.com/vi/wB8cmPJ338o/0.jpg)](http://www.youtube.com/watch?v=wB8cmPJ338o)
+
 Questo video di presentazione e' riferito alla *revisione HardWare 1.93*, pertanto ci sono delle differenze rispetto all'attuale versione. 
 
 ------------
