@@ -109,6 +109,8 @@ Il sistema di protezione si basa sul chip [LTC4367](https://www.analog.com/en/pr
 ------------
 
 ### Microchip ATmega128A
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/atmega.jpg" width="1280">
+
 Il *cervello* della scheda e' un microcontrollore [ATmega128](https://www.microchip.com/wwwproducts/en/ATmega128A) a 64 pin operante a 5 volt con frequenza di 16MHz.</br>
 Il microcontrollore comanda *in maniera indipendente* tutti (leggere NOTA) i LED, in modo tale da garantire la massima flessibilita' di funzionamento.
 
@@ -126,6 +128,7 @@ Il microcontrollore **non può** essere dotato di *bootloader*: non e' presente 
 
 ### Lettura Segnale Digitale
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/dcc.jpg" width="1280">
+
 Il segnale digitale e' letto mediante [Optoisolatore TLP2168](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2168.html) che fornisce l'[isolamento galvanico](https://it.wikipedia.org/wiki/Isolamento_elettrico) del microcontrollore dalla tensione delle rotaie.</br> 
 L'optoisolatore e' protetto dall'inversione di corrente mediante Diodo e da un eccessiva corrente mediante resistore.</br>
 Tale chip e' bicanale e permette, inoltre, il rilevamento della presenza di un Decoder Esterno analizzando la linea U+ fornita da esso.</br>
@@ -152,6 +155,7 @@ Tale porta fornisce il Bus I2C mediante il seguente schema:</br>
 
 ### Illuminazione Compartimenti con Luci Diurne e Notturne
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luci_compartimenti.jpg" width="1280">
+
 Questa scheda fornisce, per ogni compartimento, la **doppia illuminazione**: *Diurna* con LED Bianco Freddo e *Notturna* con LED Blu.</br>
 Ogni LED e' indipendente e puo' essere pilotato dal microcontrollore in maniera indipendente dall'altro.</br>
 
@@ -159,6 +163,7 @@ Ogni LED e' indipendente e puo' essere pilotato dal microcontrollore in maniera 
 
 ### Illuminazione Ritirate
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luce_ritirate.jpg" width="1280">
+
 Ogni ritirata ha un LED Bianco Freddo, indipendente da tutti gli altri LED della scheda.</br>
 Questa configurazione permette la massima configurabilita' luminosa della vettura.
 
