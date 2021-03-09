@@ -1,5 +1,5 @@
 # Scheda di Illuminazione Digitale per vetture [Roco](https://www.roco.cc/it/home/index.html) Eurofima di Seconda Classe in Scala H0
-Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.
+Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.</br>
 E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: 
 - Corridoio 
 - *Luci Diurne Compartimenti*
@@ -26,7 +26,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Sistema ACK](#sistema-ack)
   - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
   - [Compartimenti con Luci Diurne e Notturne *indipendenti*](#illuminazione-compartimenti-con-luci-diurne-e-notturne)
-  - [Bagni *indipendenti*](#illuminazione-ritirate)
+  - [Ritirate *indipendenti*](#illuminazione-ritirate)
   - [Luci di Coda Rosse](#luci-di-coda-rosse)
   - [Altoparlante](#altoparlante)
   - [Decoder PluX](#interfaccia-plux)
@@ -37,6 +37,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 ## Video Presentazione del Progetto
 [![Video Presentazione](https://img.youtube.com/vi/wB8cmPJ338o/0.jpg)](http://www.youtube.com/watch?v=wB8cmPJ338o)
+Questo video di presentazione e' riferito alla *revisione HardWare 1.93*, pertanto ci sono delle differenze rispetto all'attuale versione. 
 
 ------------
 
