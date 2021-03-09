@@ -143,6 +143,8 @@ La scheda e' dotata di sistema per fornire l'ACK nella programmazione DCC median
 ------------
 
 ### Porta di Programmazione ISP
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/isp.jpg" width="1280">
+
 Per programmare il microcontrollore e' presente *una porta di programmazione ISP* con connettore JST SH6 per prevenire connessioni invertite.</br>
 Questa porta svolge la doppia funzione di **Porta ISP** e **Porta I2C** mediante il seguente schema:</br>
 
