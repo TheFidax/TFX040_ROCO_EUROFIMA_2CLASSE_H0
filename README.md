@@ -175,6 +175,9 @@ Questa configurazione permette la massima configurabilita' luminosa della vettur
 ------------
 
 ### Luci di Coda Rosse
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luci_coda_pad.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/luci_coda_npn.jpg" width="1280">
+
 Su entrambi i lati sono presenti le connessioni per delle **Luci di Coda Rosse**.</br>
 Le connessioni prevedere un *polo positivo* collegato alla linea a **5 volt** e un *polo negativo* pilotato dal micro tramite transistor.
 
