@@ -195,6 +195,14 @@ La scheda ha lo spazio, e connessioni, per un altoparlante da 20 millimetri.</br
 ### Interfaccia PluX
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/plux.jpg" width="1280">
 
+E' presente un **connettore PluX** per poter utilizzare decoder commerciali.</br>
+Durante il funzionamento con Decoder, la scheda di illuminazione diventa un [Modulo SUSI](https://github.com/TheFidax/Rcn600), questa configurazione diventa necessario se e' richiesto un protocollo *proprietario* non decodifcicabile dalla scheda.</br>
+Protocolli come:
+- [MFX/M4](https://en.wikipedia.org/wiki/M%C3%A4rklin_Digital)
+- [RailCom Plus](http://www.esu.eu/en/support/white-papers/railcomplusr/) 
+
+Il connettore PluX fornisce il collegamento alle rotaie (per portare i comandi al Decoder), il [Bus SUSI](https://dccwiki.com/SUSI) (per utilizzare la scheda come modulo SUSI) e il collegamento per un altoparlante (in caso di decoder sonori).
+
 ------------
 
 ### Porta SUSI
