@@ -136,8 +136,9 @@ Come ulteriore protezione la scheda **può essere equipaggiata** con un sistema 
 Questa protezione **e' opzionale**: la sua presenza **e' segnalata dal Jumper J1 *aperto***.</br>
 Le normative [NMRA](https://www.nmra.org/sites/default/files/standards/sandrp/pdf/s-9.1_electrical_standards_2020.pdf) e [NEM](https://morop.org/downloads/nem/fr/nem670_f.pdf) **impongono** che un decoder digitali *supportino* tensioni fino a 27 volt.</br>
 L'utilizzo di condensatori a 25 volt quindi *non e' a norma*. **Tuttavia** le stesse normative impongono che la centrale fornisca tensione *massima* di 22 volt.</br>
-Pertanto in condizioni di *funzionamento corretto* i condensatori non riceveranno mai tensioni che possano danneggiarli.</br>
-Gli stessi produttori commerciali *consigliano* condensatori da 25 volt.
+Pertanto in condizioni di *funzionamento corretto* i condensatori non riceveranno mai tensioni che possano danneggiarli.
+
+Gli stessi produttori commerciali *consigliano* condensatori da 25 volt:
 <img src="https://images.beneluxspoor.net/bnls/aansluitschema_lokpilot_v3.jpg" width="1280">
 
 **In caso di impiego della Scheda su sistemi a Corrente Alternata Analogica questa protezione E' OBBLIGATORIA!** 
