@@ -12,21 +12,24 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 **Alcune Immagini Dimostrative:**
 
 - Carrozza in condizioni luminose *Diurne* con tutti i LED bianchi accesi
+
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/diurna_bianchi.jpg" width="1280">
 
 - Carrozza in condizione luminose *Diurne* con *corridoio* e *ritirate* illuminate e *compartimenti con luci blu*.
+
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/diurna_blu.jpg" width="1280">
 
 - Carrozza in condizioni luminose *Notturne* con tutti i LED bianchi accesi 
+
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_bianchi.jpg" width="1280">
 
 - Carrozza in condizioni luminose *Notturne* con con *ritirate* illuminate e *compartimenti con luci blu*.
+
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_blu1.jpg" width="1280">
 
 - Carrozza in condizione luminose *Notturne* con *corridoio* e *ritirate* illuminate e *compartimenti con luci blu*.
 
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_blu2.jpg" width="1280"></br>
-
 **NOTA**: Il modello *non ha divisori fisici* tra il corridoio e i compartimenti, per sfruttare al meglio le luci blu e' necessario isolare gli ambienti con riproduzioni di tende (come avviene al vero in notturna).</br> 
 
 ------------
