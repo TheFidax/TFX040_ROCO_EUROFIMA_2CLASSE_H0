@@ -56,6 +56,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Altoparlante](#altoparlante)
   - [Decoder PluX](#interfaccia-plux)
   - [Porta SUSI](#porta-susi)
+* [Assemblaggio](#Assemblaggio)
 * [Contattami](#Contattami)
 
 ------------
@@ -255,6 +256,16 @@ Il connettore PluX fornisce il collegamento alle rotaie (per portare i comandi a
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/susi_resistori.jpg" width="1280">
 
 Per garantire la massima personalizzazione, e' presente anche **una porta SUSI** per eventuali moduli SUSI esterni.
+
+------------
+
+## Assemblaggio
+Il file *BoM* comprende la lista di tutti i pezzi necessario all'assemblaggio in proprio della scheda.</br>
+Per esperienza personale consiglio di cominciare l'assemblaggio dal Chip **LTC4367** in quanto il più ostico da saldare a mano; nel caso in cui questo chip *non fosse richiesto* allora è consigliabile cominciare dal *Microcontrollore ATmega128A*.
+
+I successivi pezzi possono essere saldati seguendo un ordine a scelta dell'utente.
+
+*Nel caso in cui si volesse la scheda **gia' assemblata** e' possibile contattarmi all'indirizzo mail sottoriportato oppure seguire eventuali aste di pezzi in esubero sul mio profilo **Ebay***: https://www.ebay.it/sch/the_fidax/m.html
 
 ------------
 
