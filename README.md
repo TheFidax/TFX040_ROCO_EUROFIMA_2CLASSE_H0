@@ -1,4 +1,4 @@
-# Scheda di Illuminazione Digitale per vetture [Roco](https://www.roco.cc/it/home/index.html) Eurofima di Seconda Classe in Scala H0
+# Scheda di Illuminazione Digitale per vetture [Roco](https://www.roco.cc/it/home/index.html) [Eurofima di Seconda Classe](https://www.google.com/amp/s/scalaenne.wordpress.com/2016/03/26/uic-z-parte-1-le-eurofima-2/amp/) in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture Roco Eurofima, di *seconda classe*, in scala H0.</br>
 E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: 
 - Corridoio 
