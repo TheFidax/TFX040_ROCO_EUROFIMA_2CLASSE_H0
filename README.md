@@ -34,6 +34,10 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 <img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/notturna_blu2.jpg" width="1280"></br>
 **NOTA**: Il modello *non ha divisori fisici* tra il corridoio e i compartimenti, per sfruttare al meglio le luci blu e' necessario isolare gli ambienti con riproduzioni di tende (come avviene al vero in notturna).</br> 
 
+- Scheda *posizionata* e Carrozzeria richiusa:
+
+<img src="https://github.com/TheFidax/TFX040_ROCO_EUROFIMA_2CLASSE_H0/blob/main/Images/scheda_posizionata.jpg" width="1280"></br>
+
 ------------
 
 ## Indice
